@@ -1,0 +1,33 @@
+{
+  "admin": {
+    "deleteUser": "admin/deleteUser",
+    "bannedUser": "admin/bannedUser",
+    "getUserData": "admin/getUserData",
+    "setUserData": "admin/setUserData"
+  },
+  "auth": {
+    "login": "auth/login",
+    "register": "auth/register",
+    "changePassword": "auth/changePassword",
+    "logout": "auth/logout",
+    "update": "auth/update",
+    "verify": "auth/verify"
+  },
+  "user": {
+    "getAllGameValue": "game/user/queryAllGameValue",
+    "getGameValue": "game/user/queryGameValue",
+    "setGameValue": "game/user/updateGameValue"
+  },
+  "news": {
+    "getList": "game/news/getList",
+    "getInfo": "game/news/getInfo"
+  },
+  "market": {
+    "getMaterialList": "game/market/getMaterialList",
+    "getStockList": "game/market/getStockList",
+    "getDayStockInfo": "game/market/getDayStockInfo",
+    "getWeekStockInfo": "game/market/getWeekStockInfo",
+    "getDayMaterialInfo": "game/market/getDayMaterialInfo",
+    "getWeekMaterialInfo": "game/market/getWeekMaterialInfo"
+  }
+}
